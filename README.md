@@ -42,14 +42,3 @@ A estrutura `Processo` contém as seguintes informações:
 - **Tempo de Espera**: O tempo de espera de cada processo é calculado como o tempo de vida menos o tempo de execução do processo.
 - **Tempo Total**: O tempo total de execução é calculado levando em consideração o tempo de execução de todos os processos, incluindo as trocas de contexto.
 
-## Execução
-
-No código, são definidos quatro processos com os seguintes dados de exemplo:
-
-```c
-Processo processos[] = {
-    {1, 10, 10, -1, 0, 5},  
-    {2, 30, 30, -1, 0, 15},
-    {3, 20, 20, -1, 0, 10},
-    {4, 40, 40, -1, 0, 0} 
-};
