@@ -1,4 +1,4 @@
-# README - Simulação de Escalonamento Round Robin
+# - Simulação de Escalonamento Round Robin
 
 Este projeto simula o algoritmo de escalonamento **Round Robin** para processos, com a inclusão de trocas de contexto. O objetivo principal é calcular o tempo de vida, tempo de espera e o tempo total de execução dos processos, considerando a implementação do algoritmo de escalonamento preemptivo.
 
